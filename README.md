@@ -1,6 +1,6 @@
 # T3A2-A - Full Stack App (Part A)
 
-## Garden Tracker App
+## Garden Tracker App - Plantastic
 ### Joshua Davis, Kal Fung, Benjamin Campbell
 
 #### **README Contents:**
@@ -129,7 +129,7 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 
 
 ### Project Management
-For project management approach we are using Agile methodologies aided by a Trello project boards. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally communication on a group discord, casual individual daily standups are used to keep project perspective and adapatability to changing needs of individuals and the project. Members take turns participating in a more formal group daily standup on the cohorts discord channel.
+To manage our project, we are using Agile methodologies aided by a Trello project boards. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally, communication on a group Discord as well as casual individual daily standups are used to keep project perspective and adapt to the changing needs of individuals and the project. Members take turns participating in a more formal group daily standup on the cohort's Discord channel.
 
 ![trello overview, aug 18, mid project](./docs/trello-screenshots/overview-8-18.png)
 
