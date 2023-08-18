@@ -12,7 +12,7 @@
 1. [Application Architecture Diagrams](#Application-Architecture-Diagrams)  
 1. [User Stories](#User-Stories)  
 1. [Project Management](#Project-Management)  
-<br/>
+
 ### Purpose
 So you’ve just spent a weekend and a small fortune to landscape your front yard and now you can’t remember the names of any of your new plants, let alone their care needs and schedules. Sure you could save the small plastic information tags for every plant in a ziplock bag, toss it in a drawer in your garage and hope to find it before your new babies have withered away… Or you could start using ***Plantastic***!  
 
@@ -57,7 +57,6 @@ In addition to these core technologies, we also used:
 - CSS
 
 <br/>
-<br/>
 
 ### Data Flow Diagrams
 
@@ -69,26 +68,42 @@ The primary ways data flows within the application are:
 Both spaces and areas allow for user provided names, descriptions and notes which are stored in the users collection on the database. The app also allows for user uploaded images of spaces and areas which are uploaded to an AWS image server, which responds with an image URL. The returned image URL is then stored appropriately in the users collection on the database. 
 
 
-![data flow legend](./docs/dataflow-diagrams/legend.jpg)
+<p align="center">
+  <img src="./docs/dataflow-diagrams/legend.jpg" />
+</p>
+
+
+</br>  
+<p align="center">
+  <img src="./docs/dataflow-diagrams/full-view.jpg" />
+</p>
+
+
 </br>  
 
-![data flow overview](./docs/dataflow-diagrams/full-view.jpg)
-
-</br>  
-
-![data flow login](./docs/dataflow-diagrams/login.jpg)
+<p align="center">
+  <img src="./docs/dataflow-diagrams/login.jpg" />
+</p>
 
 </br>  
 
 ![data flow view spaces/areas](./docs/dataflow-diagrams/view-spaces-areas.jpg)
+<p align="center">
+  <img src="./docs/dataflow-diagrams/view-spaces-areas.jpg" />
+</p>
 
 </br>  
 
-![data flow create/update spaces/areas](./docs/dataflow-diagrams/create-update-spaces-areas.jpg)
+<p align="center">
+  <img src="./docs/dataflow-diagrams/dataflow-diagrams.jpg" />
+</p>
 
 </br>  
 
-![data flow add images](./docs/dataflow-diagrams/add-images.jpg)
+
+<p align="center">
+  <img src="./docs/dataflow-diagrams/add-images.jpg" />
+</p>
 
 <br/>
 <br/>
@@ -96,6 +111,7 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 ### Application Architecture Diagram
 
 ![application architecture diagram](./docs/architecture-diagrams/diagram.png)
+
 <br/>
 
 ![application architecture diagram - key](./docs/architecture-diagrams/key.png)
@@ -111,6 +127,7 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 For project management approach we are using Agile methodologies aided by a Trello project boards. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally communication on a group discord, casual individual daily standups are used to keep project perspective and adapatability to changing needs of individuals and the project. Members take turns participating in a more formal group daily standup on the cohorts discord channel.
 
 ![trello overview, aug 18, mid project](./docs/trello-screenshots/overview-8-18.png)
+
 <br/>
 
 ![application architecture card](./docs/trello-screenshots/app-arch-card-8-18.png)
