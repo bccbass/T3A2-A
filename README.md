@@ -1,3 +1,5 @@
+# T3A2-A - Full Stack App (Part A)
+
 ## Data Flow Diagrams
 
 The primary ways data flows within the application are standard user registration/login actions, full crud for a collection spaces (larger areas of a property ie. front yard, back yard) and full crud operations for areas (sub-sections of a space ie. northwest flower bed, verge). Both spaces and areas allow for user provided name, description and notes, stored in the users collection on the database. Additionally the app allows for user uploaded images of spaces and areas which are uploaded to an AWS image server, which responds with an image URL. The returned image URL is then stored appropriately in the users collection on the database. 
@@ -24,5 +26,9 @@ The primary ways data flows within the application are standard user registratio
 
 ![data flow add images](./docs/dataflow-diagrams/add-images.jpg)
 
+## Application Architecture Diagram
 
+![application architecture diagram](./docs/architecture-diagrams/diagram.png)
+
+![application architecture diagram - key](./docs/architecture-diagrams/key.png)
 
