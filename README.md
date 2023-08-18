@@ -67,38 +67,42 @@ The primary ways data flows within the application are:
 
 Both spaces and areas allow for user provided names, descriptions and notes which are stored in the users collection on the database. The app also allows for user uploaded images of spaces and areas which are uploaded to an AWS image server, which responds with an image URL. The returned image URL is then stored appropriately in the users collection on the database. 
 
+<br/>
 
 <p align="center">
   <img src="./docs/dataflow-diagrams/legend.jpg" />
 </p>
 
 
-</br>  
+<br/>
+
 <p align="center">
   <img src="./docs/dataflow-diagrams/full-view.jpg" />
 </p>
 
 
-</br>  
+<br/>
 
 <p align="center">
   <img src="./docs/dataflow-diagrams/login.jpg" />
 </p>
 
-</br>  
+<br/>  
 
-![data flow view spaces/areas](./docs/dataflow-diagrams/view-spaces-areas.jpg)
+
 <p align="center">
   <img src="./docs/dataflow-diagrams/view-spaces-areas.jpg" />
 </p>
 
-</br>  
+<br/>  
+
 
 <p align="center">
-  <img src="./docs/dataflow-diagrams/dataflow-diagrams.jpg" />
+  <img src="./docs/dataflow-diagrams/create-update-spaces-areas.jpg" />
 </p>
 
-</br>  
+
+<br/>  
 
 
 <p align="center">
@@ -122,6 +126,7 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 ![User stories screenshot](./docs/trello-screenshots/user-stores-18-8.png)
 
 <br/>
+
 
 ### Project Management
 For project management approach we are using Agile methodologies aided by a Trello project boards. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally communication on a group discord, casual individual daily standups are used to keep project perspective and adapatability to changing needs of individuals and the project. Members take turns participating in a more formal group daily standup on the cohorts discord channel.
