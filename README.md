@@ -124,7 +124,8 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 <br/>
 
 ### User Stories:
-User stories progress, August 18
+User stories progress, August 18  
+
 ![User stories screenshot](./docs/trello-screenshots/user-stores-18-8.png)  
 
 User stories progress, August 19  
@@ -134,7 +135,7 @@ User stories progress, August 19
 <br/>
 
 ### Wireframes:
-Wireframing was implemented using Figma. Members submitted design proposals for a Mobile homepage and design elements were combined to create general style guide for the app. Members used the resulting base style guide to build out wireframes for all app views and sizes. 
+Wireframing was implemented using Figma. Members submitted design proposals for a Mobile homepage and design elements were combined to create a general style guide for the app. Members used the resulting base style guide to build out wireframes for all app views and sizes. 
 #### *Mobile Design*
 ![mobile home](./docs/wireframes/mobile-home-2.jpg)
 ![mobile view-space](./docs/wireframes/mobile-view-space-2.jpg)
@@ -158,7 +159,7 @@ Wireframing was implemented using Figma. Members submitted design proposals for 
 
 
 ### Project Management
-The project is managed using Agile methodologies aided by a shared Trello project board. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally, communication on a group Discord and casual individual daily standups are used to keep project perspective and adapt to the needs of the project. Members take turns participating in a more formal group daily standup on the cohort's Discord channel. For source control the team is implementing a Feature Branch git workflow.
+The project is managed using Agile methodologies aided by a shared Trello project board. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally, communication on a group Discord and casual individual daily standups are used to keep perspective and adapt to the needs of the project. Members take turns participating in a more formal group daily standup on the cohort's Discord channel. For source control the team is implementing a Feature Branch git workflow.
 
 ###### Progress: August 18, 2023
 
