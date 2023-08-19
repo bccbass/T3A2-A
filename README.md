@@ -1,6 +1,6 @@
 # T3A2-A - Full Stack App (Part A)
 
-## Garden Tracker App - Plantastic
+## Garden Tracker App - Plantscape
 ### Joshua Davis, Kal Fung, Benjamin Campbell
 
 #### **README Contents:**
@@ -11,12 +11,12 @@
 1. [Data Flow Diagrams](#Data-Flow-Diagrams)  
 1. [Application Architecture Diagrams](#Application-Architecture-Diagrams)  
 1. [User Stories](#User-Stories)  
-1. [Project Management](#Project-Management)  
+1. [Project Management](#Project-Management)
 
 ### Purpose
-So you’ve just spent a weekend and a small fortune to landscape your front yard and now you can’t remember the names of any of your new plants, let alone their care needs and schedules. Sure you could save the small plastic information tags for every plant in a ziplock bag, toss it in a drawer in your garage and hope to find it before your new babies have withered away… Or you could start using ***Plantastic***!  
+So you’ve just spent a weekend and a small fortune to landscape your front yard and now you can’t remember the names of any of your new plants, let alone their care needs and schedules. Sure you could save the small plastic information tags for every plant in a ziplock bag, toss it in a drawer in your garage and hope to find it before your new babies have withered away… Or you could start using ***Plantscape***!  
 
-The intended purpose of the <Garden Tracker> app is to create an organized collection of landscaped areas or plants so a user may access information, care instructions and schedules in one central location. It is intended as both a means to concentrate relevant information as well as to log and schedule care events such as watering, feeding and fertilizing. Regardless of wether the user is an individual garden owner or a landscape professional its intent is to promote a meaningful connection to a users landscape, empowering them to become actively involved with the success of the flora that surrounds them.
+The intended purpose of the Plantscape app is to create an organized collection of landscaped areas or plants so a user may access information, care instructions and schedules in one central location. It is intended as both a means to concentrate relevant information as well as to log and schedule care events such as watering, feeding and fertilizing. Regardless of wether the user is an individual garden owner or a landscape professional its intent is to promote a meaningful connection to a users landscape, empowering them to become actively involved with the success of the flora that surrounds them.
 
 <br/>
 
@@ -136,3 +136,13 @@ To manage our project, we are using Agile methodologies aided by a Trello projec
 <br/>
 
 ![application architecture card](./docs/trello-screenshots/app-arch-card-8-18.png)
+
+<br/>
+
+![wireframes card](./docs/trello-screenshots/wireframes.png)
+
+<br/>
+
+![wireframes checklist](./docs/trello-screenshots/wireframes-2.png)
+
+<br/>
