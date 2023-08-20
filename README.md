@@ -8,11 +8,22 @@
 1. [Functionality and Features](#Functionality-and-Features)  
 1. [Target Audience](#Target-Audience)  
 1. [Tech Stack](#Tech-Stack)  
-1. [Data Flow Diagrams](#Data-Flow-Diagrams)  
+1. [Data Flow Diagrams](#Data-Flow-Diagrams)
 1. [Application Architecture Diagrams](#Application-Architecture-Diagrams)  
 1. [User Stories](#User-Stories)  
 1. [Wireframes](#Wireframes) 
+   - [Site Flow](#Site-Flow)
+   - [Mobile](#Mobile)
+   - [Tablet](#Tablet)
+   - [Desktop](#Desktop)  
+
 1. [Project Management](#Project-Management)
+
+#### **Project Links:**
+[_• Trello Project Board_](https://trello.com/b/gYwjxwsb/full-stack-app)
+
+<hr/>
+
 
 ### Purpose
 So you’ve just spent a weekend and a small fortune to landscape your front yard and now you can’t remember the names of any of your new plants, let alone their care needs and schedules. Sure you could save the small plastic information tags for every plant in a ziplock bag, toss it in a drawer in your garage and hope to find it before your new babies have withered away… Or you could start using ***Plantscape***!  
@@ -70,12 +81,16 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 
 <br/>
 
+#### Legend  
+
 <p align="center">
   <img src="./docs/dataflow-diagrams/legend.jpg" />
 </p>
 
 
 <br/>
+
+#### Overview  
 
 <p align="center">
   <img src="./docs/dataflow-diagrams/full-view.jpg" />
@@ -84,12 +99,16 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 
 <br/>
 
+#### Login  
+
+
 <p align="center">
   <img src="./docs/dataflow-diagrams/login.jpg" />
 </p>
 
 <br/>  
 
+#### View Spaces and Areas  
 
 <p align="center">
   <img src="./docs/dataflow-diagrams/view-spaces-areas.jpg" />
@@ -97,6 +116,7 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 
 <br/>  
 
+#### Create and Update Spaces and Areas  
 
 <p align="center">
   <img src="./docs/dataflow-diagrams/create-update-spaces-areas.jpg" />
@@ -104,6 +124,8 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 
 
 <br/>  
+
+#### Image Upload
 
 
 <p align="center">
@@ -115,15 +137,20 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 
 ### Application Architecture Diagram
 
+#### Overview
+
 ![application architecture diagram](./docs/architecture-diagrams/diagram.png)
 
+
 <br/>
+
+#### Legend
 
 ![application architecture diagram - key](./docs/architecture-diagrams/key.png)
 
 <br/>
 
-### User Stories:
+### User Stories
 A user story is an informal and general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer. These are an important, and ongoing, part of any agile development and we implemented them into our Trello board as a part of our initial planning and brainstorming process; however, we found merit in revisiting them throughout the planning process, modifying existing user stories, and adding new user stories to reflect additional functionality we wanted to include. We found it helpful being able to consider what the specific user might require functionally from the application and we made sure to incorporate their needs into the design of the application.
 
 The first iteration of our user stories consisted of the following:
@@ -160,7 +187,7 @@ We were able to further use this user story structure of 'persona, what and why'
 
 <br/>
 
-### Wireframes:
+### Wireframes
 Wireframing was implemented using Figma. Members submitted design proposals for a Mobile homepage and design elements were combined to create a general style guide for the app. Members used the resulting base style guide to build out wireframes for all app views and sizes.
 
 The overall site flow and navigation is visually depicted below using arrows. At its core, our application's home page contains a snapshot of the User's Spaces, Areas and Plants. At mobile width, there is also a hamburger menu containing links to 'My Garden' and 'My Plants.' On the home page, users can select to 'Add Space' and this will directly take them to the form to do so. Additionally, a user can click on any one of their Spaces or Areas and be taken to the 'My Garden' page, which acts as a more in-depth summary of a specific Space in their garden or home. If a user selects a particular plant on the home page, they will be taken to the plants record in 'My Plants.'
@@ -176,7 +203,7 @@ In the View Space/My Garden view, users have the ability to navigate around the 
 
 ![site flow](./docs/wireframes/screen-connections.png)
 
-#### *Mobile Design*
+#### *Mobile*
 ![mobile home](./docs/wireframes/mobile-home-2.jpg)
 ![mobile view-space](./docs/wireframes/mobile-view-space-2.jpg)
 ![mobile view-plants](./docs/wireframes/mobile-view-plants-2.jpg)
@@ -199,6 +226,10 @@ In the View Space/My Garden view, users have the ability to navigate around the 
 
 
 ### Project Management
+
+[_• Trello Project Board_](https://trello.com/b/gYwjxwsb/full-stack-app)
+
+
 The project is managed using Agile methodologies aided by a shared Trello project board. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally, communication on a group Discord and casual individual daily standups are used to keep perspective and adapt to the needs of the project. Members take turns participating in a more formal group daily standup on the cohort's Discord channel. For source control the team is implementing a Feature Branch git workflow.
 
 ###### Progress: August 18, 2023
