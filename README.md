@@ -136,6 +136,12 @@ User stories progress, August 19
 
 ### Wireframes:
 Wireframing was implemented using Figma. Members submitted design proposals for a Mobile homepage and design elements were combined to create a general style guide for the app. Members used the resulting base style guide to build out wireframes for all app views and sizes. 
+
+#### *Site Flow*
+
+![site flow](./docs/wireframes/screen-connections.png)
+
+
 #### *Mobile Design*
 ![mobile home](./docs/wireframes/mobile-home-2.jpg)
 ![mobile view-space](./docs/wireframes/mobile-view-space-2.jpg)
@@ -182,3 +188,7 @@ The project is managed using Agile methodologies aided by a shared Trello projec
 ###### Progress: August 19, 2023
 
 ![trello overview, aug 19, mostly finished](./docs/trello-screenshots/trello-progress-8-19-23.png)
+
+###### Progress: August 20, 2023
+
+![trello overview, aug 20, Part A complete, ready to Code!](./docs/trello-screenshots/trello-progress-8-20-23.png)
