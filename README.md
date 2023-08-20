@@ -20,6 +20,7 @@
 1. [Project Management](#Project-Management)
 
 #### **Project Links:**
+[_• GitHub Repository_](https://github.com/bccbass/T3A2-A)  
 [_• Trello Project Board_](https://trello.com/b/gYwjxwsb/full-stack-app)
 
 <hr/>
@@ -230,7 +231,7 @@ In the View Space/My Garden view, users have the ability to navigate around the 
 [_• Trello Project Board_](https://trello.com/b/gYwjxwsb/full-stack-app)
 
 
-The project is managed using Agile methodologies aided by a shared Trello project board. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally, communication on a group Discord and casual individual daily standups are used to keep perspective and adapt to the needs of the project. Members take turns participating in a more formal group daily standup on the cohort's Discord channel. For source control the team is implementing a Feature Branch git workflow.
+The project is managed using Agile methodologies aided by a shared Trello project board. Task cards are created, assigned and given a due date in order to keep progress on track and reduce any disruption of creation flow. Additionally, communication on a group Discord and casual individual daily standups are used to keep perspective and adapt to the needs of the project. Members take turns participating in a more formal group daily standup on the cohort's Discord channel. For source control the team is using GitHub and implementing a Feature Branch git workflow.
 
 ###### Progress: August 18, 2023
 
