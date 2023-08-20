@@ -124,23 +124,49 @@ Both spaces and areas allow for user provided names, descriptions and notes whic
 <br/>
 
 ### User Stories:
-User stories progress, August 18  
+A user story is an informal and general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer. These are an important, and ongoing, part of any agile development and we implemented them into our Trello board as a part of our initial planning and brainstorming process; however, we found merit in revisiting them throughout the planning process, modifying existing user stories, and adding new user stories to reflect additional functionality we wanted to include. We found it helpful being able to consider what the specific user might require functionally from the application and we made sure to incorporate their needs into the design of the application.
 
-![User stories screenshot](./docs/trello-screenshots/user-stores-18-8.png)  
+The first iteration of our user stories consisted of the following:
 
-User stories progress, August 19  
+*User stories progress, August 18*
+- As a user, I'd like to be able to view the status of a plant, and its watering and fertilising schedule (GET one)
+- As a user, I'd like to be able to change what is planted in a plot (PUT/PATCH)
+- As a user, I'd like to be able to remove what is planted in a plot (DELETE)
+- As a user, I'd like to be able to view a summary of all my spaces, areas and plants (GET all)
+- As a user, I'd like to input a new planting area to be tracked (POST?)
+- As a user, I'd like to be able to update the watering or fertilising schedule for a single plant (PUT/PATCH)
+- As a user, I'd like to input the details of a new plant (POST)
 
-![User stories screenshot](./docs/trello-screenshots/user-stories-8-19-23.png)
+As shown through the verbs specified after each entry, these user stories were beneficial in unpacking what functionality our application should include. For example, we decided that retrieving user data about a plant and editing and deleting that same data was going to be important.
+
+However, we added further detail to the format of each story by adding more specificity about each user as a persona. The target audience for our application, as outlined above, is broad and the appeal of it as a garden planning and upkeep tool will only be improved if we are able to accommodate these wide variety of personas. With this in mind, we added the following user stories:
+
+*User stories progress, August 19*
+- As an avid gardener, I want to be able to log detailed records of my plants, so I can remember how to properly care for each one.
+- As an experienced gardener, I want each plant log to contain detailed care instructions, so I can use the application to increase my knowledge of plants.
+- As a homeowner, I want to be able to add details of plants as I research them, so I can plan out my garden thoughtfully.
+- As a city dweller, I still want to be able to log details about the plants in my apartment, so I can properly care for each one.
+- As a hesitant gardener, I want to be able to check the details of just my indoor plants, so I don't kill them!
+
+The development of these user stories greatly helped in defining our target audience, as well as highlighting functionality opportunities.
 
 <br/>
 
 ### Wireframes:
-Wireframing was implemented using Figma. Members submitted design proposals for a Mobile homepage and design elements were combined to create a general style guide for the app. Members used the resulting base style guide to build out wireframes for all app views and sizes. 
+Wireframing was implemented using Figma. Members submitted design proposals for a Mobile homepage and design elements were combined to create a general style guide for the app. Members used the resulting base style guide to build out wireframes for all app views and sizes.
+
+The overall site flow and navigation is visually depicted below using arrows. At its core, our application's home page contains a snapshot of the User's Spaces, Areas and Plants. At mobile width, there is also a hamburger menu containing links to 'My Garden' and 'My Plants.' On the home page, users can select to 'Add Space' and this will directly take them to the form to do so. Additionally, a user can click on any one of their Spaces or Areas and be taken to the 'My Garden' page, which acts as a more in-depth summary of a specific Space in their garden or home. If a user selects a particular plant on the home page, they will be taken to the plants record in 'My Plants.'
+
+In the View Space/My Garden view, users have the ability to navigate around the application to perform such tasks as:
+- Editing a Space
+- Adding a new Area to a Space
+- Editing an existing Area
+- Adding a Plant
+- Adding notes
 
 #### *Site Flow*
 
 ![site flow](./docs/wireframes/screen-connections.png)
-
 
 #### *Mobile Design*
 ![mobile home](./docs/wireframes/mobile-home-2.jpg)
