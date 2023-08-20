@@ -150,6 +150,14 @@ However, we added further detail to the format of each story by adding more spec
 
 The development of these user stories greatly helped in defining our target audience, as well as highlighting functionality opportunities.
 
+We were able to further use this user story structure of 'persona, what and why' to document the following additional user stories:  
+
+*User stories progress, August 20*  
+
+- As a Landscape business owner I would like to create a profile for my clients upon project completion so they have a record of their new landscaping with notes and care instructions. 
+- As a homeowner who recently invested in a large scale landscaping project, I would like to know what was planted in each area of my property and create a care schedule to protect my investment.  
+- As a new gardener, I would like to create a collection of plants I'm considering adding to my garden so I can organize and compare my selections before I make a final purchase.   
+
 <br/>
 
 ### Wireframes:
